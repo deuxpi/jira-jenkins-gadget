@@ -5,12 +5,12 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.jira.plugin</groupId>
-  <artifactId>build-gadgets</artifactId>
+  <artifactId>multi-build-gadgets</artifactId>
   <version>1.3</version>
   <packaging>atlassian-plugin</packaging>
 
-  <name>Gadget to show Jenkins/Hudson build status</name>
-  <description>This is a plugin for Atlassian JIRA with Gadget that allows to show status of defined build from Jenkins/Hudson server on JIRA Dashboard and other Gadget containers.</description>
+  <name>Gadget to show Jenkins/Hudson build status (multiple projects)</name>
+  <description>This is a plugin for Atlassian JIRA with Gadget that allows to show status of multiple builds from Jenkins/Hudson server on JIRA Dashboard and other Gadget containers.</description>
 
   <organization>
     <name>Red Hat</name>
@@ -23,6 +23,11 @@
       <organization>Red Hat</organization>
       <id>velias</id>
       <email>velias@redhat.com</email>
+    </developer>
+    <developer>
+      <id>deuxpi</id>
+      <organization>Analogic</organization>
+      <email>pgauthier@analogic.com</email>
     </developer>
   </developers>
   
